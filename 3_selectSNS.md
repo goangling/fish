@@ -14,7 +14,8 @@
 
 ### 3.1.3 JEESNS
 [JEESNS](https://www.jeesns.cn/)是一款基于JAVA企业级平台研发的社交管理系统，依托企业级JAVA的高效、安全、稳定等优势，开创国内JAVA版开源SNS先河。数据库使用MYSQL，全部源代码开放。
-源码托管在 [github](https://github.com/zchuanzhao/jeesns)，功能比较弱、没有统一前端。 开发比较活跃，但贡献者较少。
+
+私信功能、微博、群组、资讯、签到、相册、消息、积分、问答、会员VIP、群组付费、资讯付费等
 	
 ### 3.1.4 对比分析
 主要从以下几个方面：
@@ -26,30 +27,38 @@
 - 成熟稳定  
 我们评判一款电商软件好坏通常会从操作便利性、安全稳定性、需求满足性三个方面来做考虑。
 - 购买成本   
-相比于开发定制成本，购买授权成本都可以忽略不记。
+相比于开发定制成本，这几个源码购买授权成本都可以忽略不记。
 
 类别 | OpenSNS | ThinkSNS+| JEESNS
 ------- | -------| -------| -------
-端侧|H5/微信/IOS/Android| | 
-框架 | thinkphp门槛低|升级为laravel|
-语言|php5.3 | 7.1.3+
-容器||Nginx1.12 
-系统||Centos6+
-数据库||Mysql5.7 |
-文档|
-Restful API|
+端侧|wap/微信/IOS/Android|Web/H5/Android APP/iOS APP | ZUI+JQuery+Bootstrap<br>Freemarker
+框架 | thinkphp门槛低|升级为laravel|Spring MVC+Spring+Mybatis
+语言|php5.3 | php7.1.3+严格模式|Java、JDK8+
+推荐容器|Apache|Nginx1.12 |Tomcat8.0+
+系统|NA|Centos6+|NA
+数据库|Mysql5.0+|Mysql5.7+ |MYSQL5.1+
+star|网站下载较老|[1754](https://github.com/slimkit/plus)|[296](https://github.com/zchuanzhao/jeesns)
+贡献者|NA|424|2
+insights|NA|最近一个月关闭44issue<br>53次提交|最近一个月没有issue<br>只有1次提交
+文档|较丰富|[丰富](https://slimkit.github.io/plus/)|较少
+API|[V5](http://os.opensns.cn/book/index/read/id/14.html)|多端统一 <br>符合 REST 规范|NA
+案例|阿里研究院<br>寻钱网<br>深圳车盟|华为心声社区＋华为微博<br>麻辣社区<br>评宠|?
 
+
+
+
+JEESNS虽然基于JAVA开发，但对应案例较少，不活跃，先排除。
 结合我的钓场需要的功能，查看各个SNS的满足度：
 
-功能|OpenSNS | ThinkSNS+| JEESNS
-------- | -------| -------| -------
-论坛|
-问答|
+功能|OpenSNS | ThinkSNS+
+------- | -------| -------
+论坛|论坛Pro版||
+问答|问答||
 百科提问|
 百科回复|
-资讯|
+资讯|资讯||
 动态|
-圈子管理|
+圈子管理|微博Pro版||
 圈子活动|
 直播|
 机构|
