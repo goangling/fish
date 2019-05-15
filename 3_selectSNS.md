@@ -103,9 +103,10 @@ CDN加速 |  |
 ### 3.2.2 UniApp
 可以支持一套代码编到7个平台，Android/iOS/H5/微信/支付宝/百度/头条
 ### 3.2.3 对比分析
-Header1 | UniApp|ThinkSNS+
+功能 | UniApp|ThinkSNS+
 ------- | -------| -------
- |  |
+流畅 |  |
+开发速度||
 建议使用原生的。
 
 
@@ -116,11 +117,17 @@ Header1 | UniApp|ThinkSNS+
 ### 3.3.2 华为云：  
 功能够用，网速快，关系不错， 跑分优先。
 ### 3.3.3 对比分析
-Header1 | UniApp|ThinkSNS+
+特性 | 阿里云|华为云
 ------- | -------| -------
- |  |
+费用 |  |
+ 稳定||
 
 建议华为云。
 
+
+
+~/.ssh/config
+
+git clone git@goangling:sfjorg/fish.git
 
 
